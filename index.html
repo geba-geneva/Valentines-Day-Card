@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversation Hearts - Digital Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Homemade+Apple&family=Kaisei+Decol&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <!-- Closed Book -->
+    <div id="closedBook" class="book closed">
+        <img src="images/book-cover.png" alt="Book Cover" class="book-image">
+        
+        <div class="cover-text-overlay">
+            <input type="text" id="coverTo" class="cover-input cover-to" placeholder="your love">
+            <input type="text" id="coverFrom" class="cover-input cover-from" placeholder="your name">
+          </div>
+      </div>
+    <button id="openBookBtn">Open Card</button>
+    <!-- Open Book -->
+    <div id="openBook" class="book open" style="display: none;">
+        <img src="images/book-open.png" alt="Open Book" class="book-image">
+      
+      <!-- Conversation Hearts -->
+      <div class="heart" data-heart="1">
+        <img src="images/heart1.png" alt="Heart 1" class="heart-image">
+      </div>
+      
+      <div class="heart" data-heart="2">
+        <img src="images/heart2.png" alt="Heart 2" class="heart-image">
+      </div>
+      
+      <div class="heart" data-heart="3">
+        <img src="images/heart3.png" alt="Heart 3" class="heart-image">
+      </div>
+      
+      <div class="heart" data-heart="4">
+        <img src="images/heart4.png" alt="Heart 4" class="heart-image">
+      </div>
+      
+      <div class="heart" data-heart="5">
+        <img src="images/heart5.png" alt="Heart 5" class="heart-image">
+      </div>
+      
+      <div class="heart" data-heart="6">
+        <img src="images/heart6.png" alt="Heart 6" class="heart-image">
+      </div>
+      <input type="text" class="floating-heart-input" id="heartInput1" maxlength="12" placeholder="BE MINE">
+      <input type="text" class="floating-heart-input" id="heartInput2" maxlength="12" placeholder="XOXO">
+      <input type="text" class="floating-heart-input" id="heartInput3" maxlength="12" placeholder="LOVE U">
+      <input type="text" class="floating-heart-input" id="heartInput4" maxlength="12" placeholder="CUTIE">
+      <input type="text" class="floating-heart-input" id="heartInput5" maxlength="12" placeholder="HUG ME">
+      <input type="text" class="floating-heart-input" id="heartInput6" maxlength="12" placeholder="SWEET">
+    </div>
+    
+    <!-- Share Button -->
+    <button id="shareBtn" style="display: none;">Create & Share Link</button>
+    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
