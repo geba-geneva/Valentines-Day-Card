@@ -279,12 +279,12 @@
   }
   
   .cover-to {
-    top: 39%;
+    top: 36%;
     left: 50%;
   }
   
   .cover-from {
-    top: 49%;
+    top: 46%;
     left: 50%;
   }
   
@@ -347,38 +347,38 @@
   
   /* Adjust floating inputs to match new heart positions */
   #heartInput1.show {
-    top: 8% !important;
+    top: 6% !important;
     left: 50% !important;
   }
   
   #heartInput2.show {
-    top: 22% !important;
+    top: 20% !important;
     left: 75% !important;
   }
   
   #heartInput3.show {
-    top: 22% !important;
+    top: 20% !important;
     left: 20% !important;
   }
   
   #heartInput4.show {
-    top: 50% !important;
+    top: 48% !important;
     left: 78% !important;
   }
   
   #heartInput5.show {
-    top: 52% !important;
+    top: 50% !important;
     left: 20% !important;
   }
   
   #heartInput6.show {
-    top: 38% !important;
+    top: 36% !important;
     left: 50% !important;
   }
   
   /* Share button */
   #shareBtn {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
 }
