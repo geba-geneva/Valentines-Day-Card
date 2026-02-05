@@ -279,12 +279,12 @@
   }
   
   .cover-to {
-    top: 36%;
+    top: 35%;
     left: 50%;
   }
   
   .cover-from {
-    top: 46%;
+    top: 44%;
     left: 50%;
   }
   
@@ -347,32 +347,32 @@
   
   /* Adjust floating inputs to match new heart positions */
   #heartInput1.show {
-    top: 6% !important;
+    top: 5% !important;
     left: 50% !important;
   }
   
   #heartInput2.show {
-    top: 20% !important;
+    top: 19% !important;
     left: 75% !important;
   }
   
   #heartInput3.show {
-    top: 20% !important;
+    top: 19% !important;
     left: 20% !important;
   }
   
   #heartInput4.show {
-    top: 48% !important;
+    top: 47% !important;
     left: 78% !important;
   }
   
   #heartInput5.show {
-    top: 50% !important;
+    top: 48% !important;
     left: 20% !important;
   }
   
   #heartInput6.show {
-    top: 36% !important;
+    top: 35% !important;
     left: 50% !important;
   }
   
@@ -380,5 +380,6 @@
   #shareBtn {
     font-size: 14px;
     padding: 20px 20px;
+    margin-top: -20%;
   }
 }
