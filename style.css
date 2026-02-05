@@ -383,12 +383,10 @@
   /* Share button */
   #shareBtn {
     font-size: 14px;
-    padding: 5px 20px;
     margin-top: 20%;
   }
   #resetBtn{
     font-size: 14px;
-    padding: 5px 20px;
     margin-top: 20%;
   }
 }
