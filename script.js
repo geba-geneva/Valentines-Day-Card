@@ -36,10 +36,15 @@ window.addEventListener('DOMContentLoaded', () => {
       });
       
       // Show share and reset buttons after hearts finish animating
-      setTimeout(() => {
-        shareBtn.style.display = 'inline-block';
-        resetBtn.style.display = 'inline-block';
-      }, 1500);
+// Show share and reset buttons after hearts finish animating
+  setTimeout(() => {
+    console.log('Showing buttons now');
+    console.log('shareBtn:', shareBtn);
+    console.log('resetBtn:', resetBtn);
+    shareBtn.style.display = 'inline-block';
+    resetBtn.style.display = 'inline-block';
+    console.log('Buttons should be visible');
+  }, 1500);
     }, 300);
   });
 
