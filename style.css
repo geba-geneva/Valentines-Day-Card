@@ -245,10 +245,10 @@
     transform: translateX(-50%);
     animation-delay: 1.5s;
   }
-  #shareBtn{
-    display: block;
-    margin: 20px auto;
-    margin-top: -50px;
+  /* Position buttons side by side */
+  #shareBtn, #resetBtn {
+    display: inline-block;
+    margin: 20px 10px;
     padding: 15px 30px;
     font-size: 18px;
     background-color: #92254d;
@@ -259,27 +259,6 @@
     font-weight: bold;
     position: relative;
     z-index: 10;
-  }
-  #resetBtn {
-    display: block;
-    margin: 20px auto;
-    margin-top: -50px;
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: #92254d;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-    font-weight: bold;
-    position: relative;
-    z-index: 10;
-  }
-
-  
-  /* Position buttons side by side */
-  #shareBtn, #resetBtn {
-    display: inline-block;
-    margin: 20px 10px;
   }
   /* Mobile Responsive Styles */
 @media (max-width: 768px) {
