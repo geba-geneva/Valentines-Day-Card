@@ -382,11 +382,11 @@
   
   /* Share button */
   #shareBtn {
-    font-size: 14px;
-    margin-top: 20%;
+    font-size: 14px !important;
+    margin-top: 20% !important;
   }
   #resetBtn{
-    font-size: 14px;
-    margin-top: 0%;
+    font-size: 14px !important;
+    margin-top: 0% !important;
   }
 }
