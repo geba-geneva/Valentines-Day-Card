@@ -17,7 +17,6 @@
     position: relative;
     width: 100%;
     max-width: 800px;
-    text-align: center;
   }
   
   /* Closed Book Styles */
@@ -247,6 +246,11 @@
     animation-delay: 1.5s;
   }
   /* Position buttons side by side */
+  .button-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
   #shareBtn, #resetBtn {
     display: inline-block;
     margin: 20px 10px;
@@ -258,8 +262,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    position: relative;
-    z-index: 10;
+    vertical-align: middle;
   }
   /* Mobile Responsive Styles */
 @media (max-width: 768px) {
