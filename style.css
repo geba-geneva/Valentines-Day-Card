@@ -260,3 +260,125 @@
     position: relative;
     z-index: 10;
   }
+  /* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+  
+  /* Scale down book images */
+  .book-image {
+    width: 100%;
+  }
+  
+  /* Adjust cover text inputs for mobile */
+  .cover-input {
+    width: 200px;
+    font-size: 18px;
+  }
+  
+  .cover-to {
+    top: 39%;
+    left: 50%;
+  }
+  
+  .cover-from {
+    top: 49%;
+    left: 50%;
+  }
+  
+  /* Smaller button */
+  #openBookBtn {
+    margin-top: -30px;
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+  
+  /* Smaller hearts */
+  .heart-image {
+    width: 200px !important;
+  }
+  
+  .heart[data-heart="3"] .heart-image {
+    width: 150px !important;
+  }
+  
+  .heart[data-heart="5"] .heart-image {
+    width: 250px !important;
+  }
+  
+  /* Adjust heart text inputs */
+  .floating-heart-input {
+    font-size: 11px;
+    width: 80px;
+  }
+  
+  /* Reposition hearts for mobile - they might overlap less */
+  .heart[data-heart="1"].animate {
+    top: 8%;
+    left: 50%;
+  }
+  
+  .heart[data-heart="2"].animate {
+    top: 22%;
+    left: 75%;
+  }
+  
+  .heart[data-heart="3"].animate {
+    top: 22%;
+    left: 20%;
+  }
+  
+  .heart[data-heart="4"].animate {
+    top: 50%;
+    left: 78%;
+  }
+  
+  .heart[data-heart="5"].animate {
+    top: 52%;
+    left: 20%;
+  }
+  
+  .heart[data-heart="6"].animate {
+    top: 38%;
+    left: 50%;
+  }
+  
+  /* Adjust floating inputs to match new heart positions */
+  #heartInput1.show {
+    top: 8% !important;
+    left: 50% !important;
+  }
+  
+  #heartInput2.show {
+    top: 22% !important;
+    left: 75% !important;
+  }
+  
+  #heartInput3.show {
+    top: 22% !important;
+    left: 20% !important;
+  }
+  
+  #heartInput4.show {
+    top: 50% !important;
+    left: 78% !important;
+  }
+  
+  #heartInput5.show {
+    top: 52% !important;
+    left: 20% !important;
+  }
+  
+  #heartInput6.show {
+    top: 38% !important;
+    left: 50% !important;
+  }
+  
+  /* Share button */
+  #shareBtn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
