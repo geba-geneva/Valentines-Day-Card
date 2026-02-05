@@ -384,9 +384,11 @@
   #shareBtn {
     font-size: 14px !important;
     margin-top: 0% !important;
+    padding: 15px 30px;
   }
   #resetBtn{
     font-size: 14px !important;
     margin-top: 0% !important;
+    padding: 15px 30px;
   }
 }
