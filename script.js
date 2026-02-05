@@ -36,10 +36,9 @@ window.addEventListener('DOMContentLoaded', () => {
         
         // Show share button after hearts finish animating
         setTimeout(() => {
-          shareBtn.style.display = 'block';
+          shareBtn.style.display = 'inline-block';
+          resetBtn.style.display = 'inline-block'; 
         }, 1500);
-      }, 300);
-    });
   
     // Share button functionality
     shareBtn.addEventListener('click', () => {
@@ -93,3 +92,20 @@ window.addEventListener('DOMContentLoaded', () => {
       document.getElementById('heartInput6').value = params.get('h6') || 'SWEET';
     }
   });
+  // Reset button functionality
+const resetBtn = document.getElementById('resetBtn');
+
+// Show reset button when share button appears
+// Update the existing openBookBtn click handler to also show resetBtn:
+// Find this line in your code:
+// shareBtn.style.display = 'block';
+// And add right after it:
+// resetBtn.style.display = 'inline-block';
+
+resetBtn.addEventListener('click', () => {
+  // Clear URL parameters
+  window.history.pushState({}, '', window.location.pathname);
+  
+  // Reload the page to start fresh
+  window.location.reload();
+});
